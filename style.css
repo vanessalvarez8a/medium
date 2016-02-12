@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+
+}
+
+header {
+  height: 2vh;
+}
+
+.metabar {
+  /*position: relative;*/
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.metabar-left img {
+  width: 30px;
+  /*margin: 15px;*/
+}
+
+.metabar-left {
+  float: left;
+  
+} 
+
+.metabar-center {
+  /*text-align: center;*/
+  clear: left;
+  display: inline-block;
+}
+
+.publish1, .publish2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.publish2 {
+  padding-left: 15px;
+}
+
+
+.metabar-right {
+  float: right;
+}
+
+.container {
+  margin: 10% 0 0 20%;
+  width: 60%;
+}
+
+.avatar, .user-info {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.avatar-image {
+  border-radius: 50%;
+}
+
+/*.search {
+  border-radius: 999em;
+  border: 2px solid #DEDEDE;
+  padding: 11px 40px;
+}*/
+
+input {
+  border-radius: 999em;
+  border: 2px solid #DEDEDE;
+  padding: 11px 40px;
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  z-index: 1;
+  padding: 10px 15px;
+  color: #717171;
+  font-weight: bold;
+}
+
+button.signin {
+  border-radius: 999em;
+  border: 2px solid #29C893;
+  padding: 11px 40px;
+  background-color: white;
+}
+
+button {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 11px;
+  color: #29C893;
+}
+
+.user-info {
+  padding-left: 10px;
+}
+
+.user-info a {
+  text-decoration: none;
+  color: #00B476;
+}
+
+.user-info span {
+  font-size: 12px;
+  color: #A0A0A0;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 52px;
+  line-height: 1em;
+  font-weight: 650;
+  color: #3A3A3A;
+}
+
+.post p {
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 21px;
+  line-height: 2;
+  letter-spacing: -.003em;
+  font-weight: 400;
+  color: #3A3A3A;
+}
+
+.blockquote {
+  border-left: 3px solid;
+  padding-left: 20px;
+  padding-left: -23px;
+  padding-bottom: 3px;
+}
+
+h2 {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: 650;
+  color: #3A3A3A;
+}
+
+pre {
+  background-color: #F5F5F5;
+  font-size: 16px;
+  font-family: Menlo,Monaco,"Courier New",Courier,monospace;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+.social {
+  border-bottom: .5px solid #aaa;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+.likes {
+  float: left;
+}
+
+.fa.fa-heart-o {
+  font-size: 30px;
+  color: #29C893;
+  padding-right: 20px;
+}
+
+.fa.fa-comment-o {
+  font-size: 30px;
+  color: gray;
+}
+
+.social-media {
+  float: right;
+}
+
+.fa.fa-twitter {
+  font-size: 30px;
+  padding-right: 20px;
+  color: gray;
+}
+
+.fa.fa-facebook-official {
+  font-size: 30px;
+  color: gray;
+  padding-right: 20px;
+}
+
+.fa.fa-ellipsis-h {
+  font-size: 30px;
+  color: gray;
+}
+
+.last-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.parent1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent2 {
+  float: right;
+  display: flex;
+}
+
+.left-padding {
+  padding-left: 50px;
+}
+
+button.button-small {
+  height: 32px;
+  padding: 0 14px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 999em;
+  border: 2px solid #29C893;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.responses {
+  height: 70%;
+  background-color: #F3F3F3;
+}
+
+h4 {
+  padding-top: 20px;
+  color: gray;
+}
+
+
+.response-box {
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #F3F3F3 ;
+    color: #939393 ;
+    padding: 100px 15px;
+}
+
+.other-responses {
+  font-size: 14px;
+  line-height: 2;
+  padding-top: 10px;
+  color: gray;
+}
+
+button.show-more {
+  height: 37px;
+  padding: 0 16px;
+  color: gray;
+  background-color: #F3F3F3;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 999em;
+}
+
+footer {
+  background-color: #010634;
+  height: 70%;
+  bottom: 0;
+  position: relative;
+  margin: 0% 0 0 0%;
+  display: flex;
+}
+
+.center {
+  flex: 1;
+}
+
+h2.medium {
+  color: white;
+  padding-top: 60px;
+  text-align: center;
+
+
+}
+
+p.taylor {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: lighter;
+
+}
+
+#footer-buttons {
+  text-align: center;
+  /*flex: 1;*/
+}
+
+button.account {
+  margin-right: 8px;
+  background-color: #29C893;
+  color: white;
+  font-size: 15px;
+  line-height: 43px;
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 999em;
+  border: 0;
+}
+
+button.learn-more {
+  margin-right: 8px;
+  background-color: #010634;
+  color: #29C893;
+  font-size: 15px;
+  line-height: 43px;
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 999em;
+  border: 2px solid #29C893;
+}
+
